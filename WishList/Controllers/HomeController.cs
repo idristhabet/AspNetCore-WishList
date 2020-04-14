@@ -12,6 +12,7 @@ namespace WishList.Controllers
         {
             var obj = new List<string> { "testA", "test" };
             var objTWO = new List<string> { "testA", "test" };
+            var objTHREE = new List<string> { "testA", "test" };
 
             return View("Index");
            
