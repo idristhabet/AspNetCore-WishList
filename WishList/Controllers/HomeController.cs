@@ -10,6 +10,8 @@ namespace WishList.Controllers
     {
         public IActionResult Index()
         {
+            var obj = new List<string> { "testA", "test" };
+
             return View("Index");
            
         }
